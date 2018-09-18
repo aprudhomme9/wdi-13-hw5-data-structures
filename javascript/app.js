@@ -31,4 +31,20 @@ console.log("up and running");
 // 	location: "Chicago",
 // 	favorite shows: ["The Office", "Parks and Rec", "Breaking Bad"]
 // }]
+// 2.
+const rainbowColors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+rainbowColors[4];
+// => "blue"
+
+const andy = {
+	favoriteFood: "fajitas",
+	hobby: "petting all of the dogs",
+	town: "Chicago",
+	favoriteDataType: "Objects"
+}
+
+andy.hobby;
+// => "petting all of the dogs"
+
 
