@@ -157,3 +157,19 @@ for(i = 0; i < bondFilms.length; i++) {
 }
 
 console.log(oddBonds);
+
+// 7.
+// bondFilms[0].gross = bondFilms[0].gross.replace('$', "");
+// console.log(bondFilms[0].gross);
+// bondFilms[0].gross = bondFilms[0].gross.replace('$', "");
+// bondFilms[0].gross = bondFilms[0].gross.replace(',', '');
+// console.log(parseInt(bondFilms[0].gross));
+
+let totalGross = 0;
+for(i = 0; i < bondFilms.length; i++) {
+	bondFilms[i].gross = bondFilms[i].gross.replace('$', '');
+	bondFilms[i].gross = bondFilms[i].gross.replace(',', '');
+	totalGross += parseInt(bondFilms[i].gross);
+}
+console.log(bondFilms[0].gross);
+console.log(totalGross);
