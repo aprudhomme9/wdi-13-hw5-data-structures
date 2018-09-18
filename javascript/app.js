@@ -91,4 +91,27 @@ console.log(crazyObject.larry.nicknames[1]);
 console.log(crazyObject.larry.characters[1]);
 // => {name: "funkhauser", occupation: "manager"}
 
+// 4.
 
+const inception = {
+   reality: {
+       dreamLayer1: {
+           dreamLayer2: {
+               dreamLayer3: {
+                   dreamLayer4: {
+                       dreamLayer5: {
+                           dreamLayer6: {
+                               limbo: "Joseph Gordon Levitt"
+                          }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+
+console.log(inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = null);
+// => "Joseph Gordon Levitt"
+
+// 5.
